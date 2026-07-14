@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOVAForge — Landing</title>
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <div id="topGlow"></div>
+  <header class="site-header">
+    <div class="container nav-row">
+      <div class="brand">🎮 NOVAForge</div>
+      <nav class="main-nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#games">Games</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#devs">Developers</a>
+        <a href="#news">News</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Creating The Next Generation<br>AAA Gaming Experiences</h1>
+      <p class="hero-sub">We Build Worlds. We Create Stories. We Forge Legends.</p>
+      <div class="hero-ctas">
+        <button class="btn glow" id="playTrailer">Play Trailer</button>
+        <button class="btn outline" id="exploreGames">Explore Games</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="games" class="featured">
+    <div class="container">
+      <h2>Featured Games</h2>
+      <div class="games-grid">
+        <!-- Eight game cards -->
+        <article class="game-card" data-game="Cyberpunk 2077">
+          <div class="cover" style="background-image:url('images/game1.jpg')"></div>
+          <div class="meta"><h3>Cyberpunk 2077</h3><p>Genre: Action RPG • Engine: REDengine • 2020</p></div>
+        </article>
+        <article class="game-card" data-game="Red Dead Redemption 2">
+          <div class="cover" style="background-image:url('images/game2.jpg')"></div>
+          <div class="meta"><h3>Red Dead Redemption 2</h3><p>Genre: Action • Engine: RAGE • 2018</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game3.jpg')"></div>
+          <div class="meta"><h3>Marvel's Spider-Man 2</h3><p>Genre: Action • Engine: Insomniac • 2023</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game4.jpg')"></div>
+          <div class="meta"><h3>God of War Ragnarök</h3><p>Genre: Action • Engine: Santa Monica • 2022</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game5.jpg')"></div>
+          <div class="meta"><h3>Ghost of Tsushima</h3><p>Genre: Action • Engine: Proprietary • 2020</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game6.jpg')"></div>
+          <div class="meta"><h3>The Last of Us Part II</h3><p>Genre: Action • Engine: Naughty Dog • 2020</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game7.jpg')"></div>
+          <div class="meta"><h3>Alan Wake 2</h3><p>Genre: Horror • Engine: Northlight • 2023</p></div>
+        </article>
+        <article class="game-card">
+          <div class="cover" style="background-image:url('images/game8.jpg')"></div>
+          <div class="meta"><h3>Black Myth Wukong</h3><p>Genre: Action • Engine: Unreal • 2024</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service"> <div class="icon">🎮</div><h3>Game Development</h3><p>AAA teams & pipelines.</p></div>
+        <div class="service"> <div class="icon">🤖</div><h3>AI NPC Systems</h3><p>Advanced behaviors & learning.</p></div>
+        <div class="service"> <div class="icon">🌐</div><h3>Multiplayer</h3><p>Scaleable match-making & netcode.</p></div>
+        <div class="service"> <div class="icon">🎬</div><h3>Motion Capture</h3><p>High-fidelity mocap pipelines.</p></div>
+        <div class="service"> <div class="icon">📽️</div><h3>Cinematics</h3><p>Story-driven trailers & sequences.</p></div>
+        <div class="service"> <div class="icon">⚙️</div><h3>Console Optimization</h3><p>Performance tuning across platforms.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="why">
+    <div class="container">
+      <h2>Why Choose NOVAForge</h2>
+      <div class="counters">
+        <div class="counter"><span data-target="100">0</span>+<p>AAA Projects</p></div>
+        <div class="counter"><span data-target="250">0</span>+<p>Developers</p></div>
+        <div class="counter"><span data-target="50">0</span>+<p>Awards</p></div>
+        <div class="counter"><span data-target="10000000">0</span>+<p>Players</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="row"><input placeholder="Name" required></div>
+        <div class="row"><input type="email" placeholder="Email" required></div>
+        <div class="row"><input placeholder="Subject"></div>
+        <div class="row"><textarea placeholder="Message" required></textarea></div>
+        <div class="row"><button class="btn primary" type="submit">Send Message</button></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container foot-grid">
+      <div class="brand-large">NOVAForge</div>
+      <div class="links">
+        <a href="#">Home</a><a href="#">Games</a><a href="#">Careers</a>
+      </div>
+      <div class="socials">Discord • Steam • YouTube • Instagram • Twitter</div>
+    </div>
+    <div class="copy">© 2026 NOVAForge. All Rights Reserved.</div>
+  </footer>
+
+  <button id="backTop" title="Back to top">↑</button>
+
+  <script src="js/landing.js"></script>
+</body>
+</html>

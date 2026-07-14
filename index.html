@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NOVAForge — Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loader"> <div class="spinner"></div> </div>
+
+  <canvas id="particles"></canvas>
+
+  <div class="bg-overlay"></div>
+
+  <main class="center-wrap">
+    <header class="logo">NOVA<span>Forge</span></header>
+    <p class="tagline">Forge the Future of AAA Gaming</p>
+
+    <section class="login-card" aria-labelledby="login-title">
+      <h2 id="login-title">Welcome Back</h2>
+      <form id="login-form">
+        <div class="input-row">
+          <label>Username<input type="text" id="username" placeholder="GamerTag" required></label>
+        </div>
+        <div class="input-row">
+          <label>Email<input type="email" id="email" placeholder="you@novaforge.gg" required></label>
+        </div>
+        <div class="input-row pass-row">
+          <label>Password<input type="password" id="password" placeholder="••••••••" required></label>
+          <button type="button" id="togglePass" class="tiny">Show</button>
+        </div>
+        <div class="meta-row">
+          <label class="remember"><input type="checkbox" id="remember"> Remember Me</label>
+          <a class="forgot" href="#">Forgot Password?</a>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" id="loginBtn">Login</button>
+          <button class="btn ghost" id="guestBtn" type="button">Continue as Guest</button>
+        </div>
+
+        <div class="or">or</div>
+        <div class="socials">
+          <button class="social google">Google</button>
+          <button class="social discord">Discord</button>
+          <button class="social steam">Steam</button>
+          <button class="social xbox">Xbox</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
